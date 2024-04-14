@@ -11,8 +11,12 @@
 * Extension Pack for Java
 
 ## Configuração 
-Em [application.properties] (application.properties): 
+Em [application.properties](application.properties): 
 1. Adicione sua Access key
 2. Adicione sua Secrety key
 3. Altere a região se necessário
-4. Altere o bucket suffix se necessário 
+4. Altere o bucket suffix se necessário
+
+Em [S3Service](S3Service.java):
+1. Altere o nome do bucket (variável bucket)
+2. Alter o nome do arquivo que deseja ler (variável path)
