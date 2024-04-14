@@ -11,7 +11,7 @@
 * Extension Pack for Java
 
 ## Configuração 
-Em application.properties: 
+Em [application.properties] (application.properties): 
 1. Adicione sua Access key
 2. Adicione sua Secrety key
 3. Altere a região se necessário
